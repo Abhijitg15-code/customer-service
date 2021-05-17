@@ -6,9 +6,9 @@ spring:
       on-profile:
       - h2  
   datasource:
-    url: jdbc:h2:file:C:/h2data/sample
+    url: jdbc:h2:file:C:/h2data/sample1
     username: sa  
-    password: srivatsan
+    password:
     driver-class-name: org.h2.Driver
   h2:
     console:
